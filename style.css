@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: radial-gradient(rgb(162, 207, 26),rgb(25, 31, 28));
+}
+
+header {
+    color: burlywood;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+ main section {
+    display:flex;
+    flex-direction:row; 
+    margin: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main article {
+    background-color: aliceblue;
+    width: 500px;
+    height: auto;
+    margin: 10px;
+} 
+
+figure img {
+    width: fit-content; 
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+figure figcaption {
+    color: burlywood;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+
+
+.class1 , .class2 , .class3 {
+    border: 5px solid rebeccapurple ;
+    border-radius: 10%;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.class1 p {
+    padding-top:10px ;
+    color: burlywood;
+    font-family: 1.5rem;
+}
+
+.class2 p {
+    padding-top:10px ;
+    color: burlywood;
+}
+
+.class3 p {
+    padding-top:10px ;
+    color: burlywood;
+}
+
+.class1 a , .class2 a , .class3 a {
+    text-align: center;
+    font-size: 1.5rem;
+    text-wrap: nowrap;
+    padding: 10% 10%;
+    color: white;
+    background-color: black;
+    display:block;
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+
+.class1:hover , .class2:hover , .class3:hover {
+    background-color: rgb(62,62,62);
+    color:white;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
